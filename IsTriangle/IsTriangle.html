@@ -6,26 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>fun with triangles</title>
+  <link href="IsTriangle.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="container">
 
 
   <nav>
-    <a href="/triangleQuiz/triangle-quiz.html">triangle Quiz</a>
-    <a href="/triangleHypotenuse/hypotenuse.html">Calculate Hypotenuse</a>
+    <a class="link" href="/triangleQuiz/triangle-quiz.html">triangle-Quiz</a>
+    <a class="link" href="/triangleHypotenuse/hypotenusehtml">Calculate-Hypotenuse</a>
   </nav>
 
-  <label for=" angle1"></label>
-  <input type="number" class="input-angle"> angle1(in degrees) </input>
+  <header>
+    <h1>Check if your sides form a triangle or not</h1>
+  </header>
 
-  <label for=" angle2"></label>
-  <input type="number" class="input-angle"> angle2(in degrees) </input>
+  <label for="input-angle">
+    <input type="number" class="input-angle" placeholder="angle1 (in degrees)">
+  </label>
 
-  <label for=" angle3"></label>
-  <input type="number" class="input-angle"> angle3(in degrees) </input>
+  <label for="input-angle">
+    <input type="number" class="input-angle" placeholder="angle2 (in degrees)">
+  </label>
 
-  <button id="check-button">Is Triangle?</button>
+
+  <label for="input-angle">
+    <input type="number" class="input-angle" placeholder="angle3 (in degrees)">
+  </label>
+
+
+  <button id="check-button">Check</button>
 
   <h2 id="output"></h2>
 
